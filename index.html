@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="player_0 player player_active">
+            <h2 class="name" id='name_0'>player 1</h2>
+            <p class="score" id='score_0'>0</p>
+            <div class="current">
+                <p class="current_label">current</p>
+                <p class="current_score" id="current_0">0</p>
+            </div>
+        </section>
+
+        <section class="player_1 player">
+            <h2 class="name" id='name_1'>player 2</h2>
+            <p class="score" id='score_1'>0</p>
+            <div class="current">
+                <p class="current_label">current</p>
+                <p class="current_score" id="current_1">0</p>
+            </div>
+        </section>
+        <div class="absolute">
+            <div class="absolute-child">
+
+                <button class="btn btn_new" onclick="reload()">New Game</button>
+                <div class="imgess">
+
+                    <img src="assets/images/1.png" alt="" class="dice">
+                </div>
+                <button class="btn btn_roll">Roll Dice</button>
+                <button class="btn btn_hold">Hold</button>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
